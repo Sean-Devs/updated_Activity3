@@ -1,0 +1,112 @@
+body {
+    background-color: black;
+    font-family: sans-serif;
+    margin: 40px;
+    overflow-x: hidden;
+    width: 95%;
+    height: 80vh;
+}
+header{
+  border: 2px solid #b74b4b;
+  background-color: #000000;
+  padding: 2rem;
+  text-align: center;
+  justify-content: space-between;
+  font-size: 40px;
+  border-radius: 2rem;
+  font-weight: 600;
+  margin: 20px;
+  word-spacing: 5px;
+  cursor: pointer;
+  transition: 0.3;
+}
+header:hover{
+    transform: scale3d(1.03);
+    background-color: #be7c7c;
+    color: black;
+    box-shadow: 0 0 25px #b74b4b;
+}
+main{
+    color: azure;
+}
+.about{
+    color: #b74b4b;
+    text-decoration: none;
+}
+.about:hover{
+    transform: scale3d(1.03);
+    color: black;
+    background-color: #b74b4b;
+     border-radius: 16px;
+
+}
+.active{
+    color: #b74b4b;
+    text-decoration: none;
+}
+.active:hover{
+    transform: scale3d(1.03);
+    color: black;
+    background-color: #b74b4b;
+     border-radius: 16px;
+
+}
+.contact{
+    color: #b74b4b;
+    text-decoration: none;
+}
+.contact:hover{
+    transform: scale3d(1.03);
+    color: black;
+    background-color: #b74b4b;
+     border-radius: 16px;
+
+}
+nav{
+  display: flex;
+  justify-content: center; 
+  gap: 150px; 
+}
+.home{
+background: #000000;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+.icon-grid{
+    width: min(480px, 92vw);
+  border: 2px solid var(--border);
+  border-radius: 18px;
+  padding: 18px;
+  background: #000000;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 2 columns */
+  gap: 15px;                              /* spacing between tiles */
+  padding-right: 23%;
+  padding-bottom: 30%;
+}
+.social-icon{
+  display: grid;
+  place-items: center;
+  aspect-ratio: 1 / 1;                    /* perfect square tiles */
+  border: 1px solid var(--tile-border);
+  border-radius: 16px;
+  text-decoration: none;
+  color: #111827;                         /* icon color */
+  transition: transform 120ms ease, box-shadow 120ms ease, border-color 120ms ease;
+  user-select: none;
+  background-color: #be7c7c;
+  font-size: 50px;
+  padding:100px;
+}
+.social-icon:hover{
+    transform: scale3d(1.2rem);
+    color: #ffffff;
+    background-color: #962626;
+}
+h1{
+    color:#b74b4b;
+    text-align: center;
+    text-decoration: underline;
+}
